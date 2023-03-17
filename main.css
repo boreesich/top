@@ -1,0 +1,38 @@
+body {
+    margin: 0%;
+    padding: 0;
+    background: url("bg.jpeg");
+    background-size: cover;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.wrapper {
+max-width: 1000px;
+min-height: 100vh;
+box-shadow: 0 0 50px #444 inset;
+width: 100%;
+margin: 0 auto;
+position: relative;
+}
+
+.wrapper::after{
+    content: " ";
+    width: 210px;
+    height: 263px;
+    background-image: url("robot.png");
+    position: absolute;
+    top: 30px;
+    right: -168px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.img{
+    width: 20%;
+}
